@@ -4,8 +4,7 @@
 
 import sort.list_sorting as srt
 
-# a_list = [18, 9, 200, 8, 10, 2, 3, 6, 9, 100, 3, 11, 500, 5, 4, 7, 1]
-a = [4, 7, 19, 95, 50, 71, 11, 133, 1, 99, 59]
+a_list = [18, 500, 9, 8, 10, 2, 200, 3, 6, 9, 100, 3, 11, 5, 4, 7, 1]
 
-sorted_list = srt.listsort(a)
+sorted_list = srt.listsort(a_list)
 print("sorted elements: ",sorted_list)
